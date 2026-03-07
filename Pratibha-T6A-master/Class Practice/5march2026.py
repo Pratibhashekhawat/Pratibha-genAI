@@ -50,7 +50,35 @@
 # for i in range(1,row+1):
 #     for j in range(1,column+1):
 #         print('#' ,end ='')
-#     print()    
+#     print() 
+
+
+
+
+#functions 
+#without arguments and return statement
+# def product():
+#     a = int(input('enter a: '))
+#     b = int(input('enter b:'))
+#     print(a*b)
+# product()    
+
+#with arguments and withouut return statement
+# def product(a,b):
+#     print(a*b)
+# product(10,2)   
+
+#with return statement and no  arguments
+def product():
+    a= int(input('enter a:'))
+    b= int(input('enter b:')) 
+    return a*b
+print(product())
+
+
+
+
+#global and local varuables
 
 # a=10
 # for i in range(0,10):
@@ -76,4 +104,4 @@
 #         b=2
 #         print(b)
 # print(a)
-      
+    
