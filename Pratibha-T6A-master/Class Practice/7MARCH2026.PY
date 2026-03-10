@@ -64,9 +64,11 @@
 
 #write a program to create a function which adds minimum two numberse and maximun 5 numbers
 
-def sum(a,b , c=0,d=0,e=0):
-    return(a+b+c+d)
-print(sum(2,3))
+# def sum(a,b , c=0,d=0,e=0):
+#     return(a+b+c+d)
+# print(sum(2,3))
+
+
 #wap to fing sum of individual digits 
 # def sum(num):
 #     sum=0
